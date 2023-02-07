@@ -49,12 +49,6 @@ function App() {
           <button onClick={() => decreaseNumber(number)}>-</button>
         </div>
 
-
-
-
-
-
-
       <h1 className={ toggle ? "funky" : ""}> CONDITIONNAL RENDERING </h1>
 
       <button onClick={handleToggle}> {toggle ? "hide content" : "show content"} </button>
@@ -83,22 +77,9 @@ function App() {
           <p>this is displayed when condition is true</p>
         </div>
       )}
-
-      
-
-
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
 // function App() {
 //   const [message, setMessage] = useState("hello world");
 
@@ -123,9 +104,6 @@ function App() {
 //     <h1 onClick={changeMsgFunc}>{text}</h1>
 //   )
 // }
-
-
-
 
 
 export default App;
